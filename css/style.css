@@ -11,9 +11,10 @@
 html{
     font-family: 'Lora', serif;
     font-size: 62%;
-    background-color: #000000;
     color: #ffffff;
+    background-image: url(/Imagenes\ Header.png);
 }
+
 
 .container{
     display: flex;
@@ -22,7 +23,8 @@ html{
     height: 100vh;
     padding: 1rem;
     position: absolute;
-    left: 32%;
+    height: 100vh;
+    width: 100vw;
 }
 
 .calculator{
@@ -32,13 +34,20 @@ html{
     font-size: 2rem;
     border: 2px solid #5fbde9;
     border-radius: .5rem;
+    max-width: 500px;
+    max-height: 500px;
+    
 }
 
 .calculator-name{
     background-color: #4E6A7A;
     padding: 1.5rem 0;
     display: flex;
-    padding-left: 5.5rem;
+    width: 100%;
+}
+
+.calculator-name h3{
+    margin:  0 auto;
 }
 
 
