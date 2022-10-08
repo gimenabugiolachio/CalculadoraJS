@@ -12,7 +12,8 @@ html{
     font-family: 'Lora', serif;
     font-size: 62%;
     color: #ffffff;
-    background-image: url(/Imagenes\ Header.png);
+    background-image: url(/14212552_5437842.jpg);
+    background-size: cover;
 }
 
 
@@ -32,7 +33,7 @@ html{
     flex-direction: column;
     width: 37.5rem;
     font-size: 2rem;
-    border: 2px solid #5fbde9;
+    border: 2px solid #232323;
     border-radius: .5rem;
     max-width: 500px;
     max-height: 500px;
@@ -40,7 +41,8 @@ html{
 }
 
 .calculator-name{
-    background-color: #4E6A7A;
+    background-color: #232323;
+    border-bottom: 1px solid #f3f3f3;
     padding: 1.5rem 0;
     display: flex;
     width: 100%;
@@ -62,7 +64,6 @@ html{
     width: 100%;
     text-align: right;
     background-color: #363636;
-    border: 1px solid #a25de2;
     overflow-x: auto;
 }
 
@@ -82,17 +83,18 @@ html{
     padding: 1rem 0;
     text-align: center;
     cursor: pointer;
-    background-color: #888585;
-    color: #ffffff;
-    border: 1px solid #c9bef0;
+    background-color: #232323;
+    color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+  
 }
 
 .keypad-button:hover{
-    background-color: #a288aa;
+    background-color: #4ECDC4;
 }
 
 .keypad-button.sign {
-    background-color: #6F95AD;
+    background-color: #1A535C;
 }
 
 .keypad-button.iqual{
@@ -100,7 +102,7 @@ html{
 }
 
 .keypad-button.red{
-    background-color: #C78989;
+    background-color: #FF6B6B;
 }
 
 .keypad-button.large{
